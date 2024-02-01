@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png"  href="./icon.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/styleTeste.css">
+
+    <title>Teste banner</title>
+</head>
+    <body>
+        <div class="banner-home d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./banner.jpg" class="img-fluid banner-home" alt="banner-home">
+                    </div>
+                    <div class="col-6">
+                        <section id="texto-menu">
+                            <h1 id="titulo-menu">
+                                Venha conhecer nosso diferencial
+                            </h1>
+                            <p id="conteudo-menu">
+                                Quer conhecer as belezas da Patagônia sem gastar todo o seu dinheiro de uma vez só? Então clique no botão abaixo e seja feliz.
+                            </p>
+                        </section>
+                        <button id="redirectButton">CONHEÇA NOSSOS PLANOS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js">
+            function redirect(){ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; }
+            document.getElementById("redirectButton").addEventListener("click", redirect);
+        </script>
+    </body>
+</html>

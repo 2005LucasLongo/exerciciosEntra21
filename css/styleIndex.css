@@ -1,0 +1,24 @@
+body {
+    font-family: Helvetica;
+    background-color: white;
+    color: black;
+}
+header {
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+}
+
+footer {
+    background-color: rgb(194, 194, 194);
+    color: black;
+    font-family: Helvetica;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    margin: 15px;
+}
